@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <script defer src="data.js"></script>
+    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="root"></div>
+    <h1>Ancient Egypt Quiz</h1>
+    <h2>Instructions</h2>
+    <p> <li>Questions will appear one by one on the screen.</li>
+        <li>Click on the correct answer</li>
+        <li>Correct answer will sound applause, incorrect answer will sound a buzzer</li>
+        <li>Continue through until end of game</li>
+        <li>Good luck!</li>
+    </p>
+
+    <div class="quiz" id="quiz"> <button id="Path-1" onclick="chooseCategory('pathOne')"> Path 1</button> <button id= "Path-2" onclick="chooseCategory('pathTwo')"> Path 2</button></div>
+    <div class="score" id="score">
+        <h2>Score</h2>
+        <div>
+            <span id="correctAnswerCount">0</span>
+            /
+            <span id="totalAnswerCount">5</span>
+        </div>
+        <div id="correctAnswerPercent">0%</div>
+        <div id="winMessage">YOU WIN!</div>
+        <div id="loseMessage">YOU LOSE!</div>
+    </div>
+</body>
+</html>

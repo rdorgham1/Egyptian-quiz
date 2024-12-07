@@ -1,0 +1,87 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    
+    background-image: url("assets/egypt.jpg");
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(56, 47, 47);
+    font-size: 100px;
+}
+
+
+.score {
+    color: rgb(56, 47, 47);
+    text-align: center;
+    font-size: 40px;
+}
+
+#winLoseMessage {
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+}
+
+#correctAnswerPercent {
+    font-size: 40px;
+    
+}
+
+.quiz {
+    background-color: rgba(255, 170, 0, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.answers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: left;
+}
+
+.answers button {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   
+}
+
+.answers button:hover {
+    background-color: #e77421;
+}
+
+.answers button:active {
+    background-color: #003d7f;
+}
