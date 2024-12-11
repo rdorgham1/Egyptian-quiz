@@ -77,7 +77,20 @@ h1 {
     transition: background-color 0.3s ease;
    
 }
+ button {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 
+}
+button:hover {
+    background-color: #e77421;
+}
 .answers button:hover {
     background-color: #e77421;
 }

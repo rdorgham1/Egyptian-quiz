@@ -64,7 +64,7 @@ state.selectedArray.map((q, i) => {
    });
 };
 
-  console.log(path)
+  
 
  showNextAnswer();
  }
@@ -83,8 +83,8 @@ pathTwo.addEventListener("click", function() {
 
 
 function handleAnswerClick(answer, i) { 
-  console.log(answer)
-  console.log(i)
+ 
+ 
   
   const isCorrect = answer === state.selectedArray[i].correctAnswer;
 
@@ -143,9 +143,7 @@ function onPageLoad() {
   winMessage.style.visibility = "hidden";
 loseMessage.style.visibility = "hidden";
 
-  //  questions.map((q, i) => {
-  //   quiz.innerHTML += makeQuestionHTML(q, i);
-  // });
+
 
 
 }
